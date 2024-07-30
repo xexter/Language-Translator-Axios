@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+  margin: 0;
+ 
+  font-family: 'Arial', sans-serif;
+  background-color: #377ade;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-div {
+  background-color: #ae5858;
+  background-repeat: no-repeat;
+  background-size: cover;
+   padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #faf8f8;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #f8f7f7;
+}
+
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button.translate-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.translate-button:hover {
+  background-color: #0056b3;
+}
+
+.translated-text {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: #333;
+  padding: 1rem;
+  background-color: #f0f8ff;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .main-div {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+}
